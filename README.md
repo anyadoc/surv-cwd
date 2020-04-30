@@ -54,7 +54,7 @@ generate_badge()
 
 # And click on the badge or use the function below to get the binder built ahead of time.
 build_binder()
-# 🤞🚀
+#🤞🚀
 
 Now, run through analysis.R till you get to a plot
 ```
