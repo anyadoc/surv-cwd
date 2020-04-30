@@ -1,21 +1,25 @@
 Type: Compendium
-Package: Compendium title
-Title: What the Package Does (One Line, Title Case)
+Package: surv-cwd
+Title: Analysis of model output (MOOvPOPsurveillance)
 Version: 0.0.1
 Authors@R: 
-    person(given = "Karthik",
-           family = "Ram",
+    person(given = "Aniruddha",
+           family = "Belsare",
            role = c("aut", "cre"),
-           email = "karthik.ram@gmail.com",
-           comment = c(ORCID = "0000-0002-0233-1757"))
-Description: Compendium description
+           email = "belsare1@msu.edu",
+           comment = c(ORCID = "0000-0002-4651-0116"))
+Description: MOOvPOPsurveillance model application
 License: MIT + file LICENSE
 Depends: 
-    dataRetrieval,
     dplyr,
     ggplot2,
-    lubridate,
+    grid,
+    gridExtra,
     tidyr,
-    viridis
+    magick,
+    matrixStats,
+    plotly,
+    reshape2,
+    tibble
 Encoding: UTF-8
 LazyData: true
